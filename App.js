@@ -94,3 +94,23 @@ console.log(text);
 // salı cuma team work
 // pazar tatil
 // default yanlış gün girildi.
+
+var day = prompt("gün giriniz:");
+
+switch (day.toLowerCase()){
+    case "Pazartesi":
+    case "Cumartesi":
+    case "Çarşamba" :
+    case "perşembe" :
+        console.log("inclass");
+      break;
+    case "Salı":
+        console.log("workshop");
+      break;
+    case "cuma":
+        console.log("teamwork");   
+      break;
+    default:
+        console.log("tatil");
+      break;
+}
