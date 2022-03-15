@@ -1,37 +1,20 @@
-// Conditionals
+//const armut = 33
+/* let score = prompt("buraya notunuzu giriniz :", "50")
+let armut = 45
 
-// let score = 48
+if (score > 80) {
+  //burasi scope
+  console.log(`Tebrikler çok başarılı ${armut} öğrencisiniz`);
+  console.log(armut);
 
-// let score = +prompt('Notunuzu girin : ')
-
-// let grade = score >= 50
-
-// console.log(grade);
-
-// if (grade) console.log(`Tebrikler, notunuz ${score} geçtiniz`);
-
-// console.log('kod sonu');
-
-
-// if (grade) {
-//     console.log(`Tebrikler, notunuz ${score} geçtiniz`);
-        
-// } else {
-//     console.log('Üzgünüm kaldınız');
+ }
+ else if (score >= 50) {
+   console.log(`Tebrikler, notunuz ${score} geçtiniz`);
     
-// }
-
-// let score = 75
-
-// if (score > 80) {
-//     console.log('Tebrikler çok başarılı öğrencisiniz');
-    
-// } else if (score >= 50) {
-//     console.log(`Tebrikler, notunuz ${score} geçtiniz`);
-    
-// }else{
-//     console.log('Üzgünüm kaldınız');
-// }
+}else{
+ console.log('Üzgünüm kaldınız');
+ } */
+// console.log(armut)
 
 // let score = 49
 
@@ -60,14 +43,14 @@
 
 //switch yapısı
 
-var text;
+/* var text; */
 // var fruits = 'Lemon';
 
-var fruits = prompt('Enter your favorite fruit :')
+// var fruits = prompt('Enter your favorite fruit :')
 // console.log(fruits.toLowerCase());
 
 //toLoWercase()
-
+/* 
 switch (fruits.toLowerCase()) {
     case "banana":
         text = "Banana is good"
@@ -87,7 +70,7 @@ switch (fruits.toLowerCase()) {
         break;
 }
 
-console.log(text);
+console.log(text); */
 
 
 // pazartesi çarşamba perşembe cumartesi in class
@@ -98,13 +81,15 @@ console.log(text);
 var day = prompt("gün giriniz:");
 
 switch (day.toLowerCase()){
-    case "Pazartesi":
-    case "Cumartesi":
-    case "Çarşamba" :
-    case "perşembe" :
+    case "pazartesi":
+    case "cumartesi":
+        console.log("osman");
+      break;
+    case "carsamba" :
+    case "persembe" :
         console.log("inclass");
       break;
-    case "Salı":
+    case "sali":
         console.log("workshop");
       break;
     case "cuma":
@@ -113,4 +98,4 @@ switch (day.toLowerCase()){
     default:
         console.log("tatil");
       break;
-}
+} 
